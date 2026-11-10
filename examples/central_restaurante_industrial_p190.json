@@ -1,0 +1,43 @@
+{
+  "identificacao_projeto": "Restaurante e Confeitaria Industrial Bella Vista",
+  "tipo_consumidor": "COMERCIAL_RESTAURANTE",
+  "tipo_recipiente": "P_190",
+  "recipientes_em_servico": 4,
+  "recipientes_em_reserva": 4,
+  "consumo_pico_kg_h": "12/1",
+  "tipo_regulagem": "MEDIA_PRESSAO_50_KPA",
+  "responsavel_tecnico": "Eng. Martin Lofrano de Oliveira - CREA/SP",
+  "afastamentos": {
+    "distancia_aberturas_m": "13/2",
+    "distancia_divisa_lote_m": "2/1",
+    "distancia_fontes_ignicao_m": "7/1",
+    "distancia_ralos_depressoes_m": "7/2",
+    "distancia_tanques_inflamaveis_m": "12/1"
+  },
+  "muro_protecao": {
+    "possui_muro": true,
+    "altura_m": "11/5",
+    "trrf_min": 120,
+    "distancia_pelo_contorno_m": "7/1"
+  },
+  "equipamentos": [
+    {
+      "id": "FOG-IND-01",
+      "descricao": "Fogão Industrial 6 Bocas Alta Pressão",
+      "consumo_kg_h": "4/1",
+      "fator_simultaneidade": "1/1"
+    },
+    {
+      "id": "FORN-TURBO",
+      "descricao": "Forno Turbo Convector a Gás",
+      "consumo_kg_h": "5/1",
+      "fator_simultaneidade": "1/1"
+    },
+    {
+      "id": "CHAPA-IND",
+      "descricao": "Chapa de Grelhados e Fritadeira Profissional",
+      "consumo_kg_h": "3/1",
+      "fator_simultaneidade": "1/1"
+    }
+  ]
+}

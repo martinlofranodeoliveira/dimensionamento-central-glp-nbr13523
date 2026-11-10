@@ -1,0 +1,37 @@
+{
+  "identificacao_projeto": "Hospital Regional Metropolitano São Camilo",
+  "tipo_consumidor": "HOSPITALAR",
+  "tipo_recipiente": "E_2000",
+  "recipientes_em_servico": 2,
+  "recipientes_em_reserva": 0,
+  "consumo_pico_kg_h": "50/1",
+  "tipo_regulagem": "MEDIA_PRESSAO_50_KPA",
+  "responsavel_tecnico": "Eng. Martin Lofrano de Oliveira - CREA/SP",
+  "afastamentos": {
+    "distancia_aberturas_m": "8/1",
+    "distancia_divisa_lote_m": "9/1",
+    "distancia_fontes_ignicao_m": "8/1",
+    "distancia_ralos_depressoes_m": "4/1",
+    "distancia_tanques_inflamaveis_m": "15/1"
+  },
+  "muro_protecao": {
+    "possui_muro": false,
+    "altura_m": "0/1",
+    "trrf_min": 0,
+    "distancia_pelo_contorno_m": "0/1"
+  },
+  "equipamentos": [
+    {
+      "id": "CALD-HOSP-01",
+      "descricao": "Caldeira Geradora de Vapor Saturado para Autoclaves e Esterilização",
+      "consumo_kg_h": "35/1",
+      "fator_simultaneidade": "1/1"
+    },
+    {
+      "id": "LAV-HOSP-01",
+      "descricao": "Lavanderia Hospitalar e Secadoras de Alta Capacidade",
+      "consumo_kg_h": "15/1",
+      "fator_simultaneidade": "1/1"
+    }
+  ]
+}

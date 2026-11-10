@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dimensionamento-central-glp-nbr13523"
+version = "1.0.0"
+description = "Motor determinístico de engenharia para dimensionamento e auditoria de Centrais de GLP conforme ABNT NBR 13523:2019 com Zero-Float"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+    { name = "Martin Lofrano de Oliveira", email = "martinlofranodeoliveira@users.noreply.github.com" }
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Manufacturing",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+]
+keywords = [
+    "engenharia",
+    "glp",
+    "nbr13523",
+    "central-glp",
+    "gas",
+    "combate-a-incendio",
+    "seguranca",
+    "vaporizacao",
+    "avcb",
+    "zero-float"
+]
+
+[project.scripts]
+central-glp-nbr13523 = "central_glp_nbr13523.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+central_glp_nbr13523 = ["py.typed"]

@@ -1,0 +1,31 @@
+{
+  "identificacao_projeto": "Condomínio Edifício Residencial Parque das Flores",
+  "tipo_consumidor": "RESIDENCIAL_COLETIVO",
+  "tipo_recipiente": "P_45",
+  "recipientes_em_servico": 6,
+  "recipientes_em_reserva": 6,
+  "consumo_pico_kg_h": "5/1",
+  "tipo_regulagem": "BAIXA_PRESSAO_2_8_KPA",
+  "responsavel_tecnico": "Eng. Martin Lofrano de Oliveira - CREA/SP",
+  "afastamentos": {
+    "distancia_aberturas_m": "7/2",
+    "distancia_divisa_lote_m": "7/2",
+    "distancia_fontes_ignicao_m": "4/1",
+    "distancia_ralos_depressoes_m": "2/1",
+    "distancia_tanques_inflamaveis_m": "10/1"
+  },
+  "muro_protecao": {
+    "possui_muro": false,
+    "altura_m": "0/1",
+    "trrf_min": 0,
+    "distancia_pelo_contorno_m": "0/1"
+  },
+  "equipamentos": [
+    {
+      "id": "EQ-FOG-RES",
+      "descricao": "Fogões residenciais 4 bocas com forno (48 unidades)",
+      "consumo_kg_h": "6/1",
+      "fator_simultaneidade": "4/5"
+    }
+  ]
+}
